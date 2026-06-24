@@ -19,7 +19,7 @@ export default function LogsPage() {
         </header>
 
         {/* Component Reuse: Dropping in our client component */}
-        <div className="bg-neutral-900 border border-neutral-800 rounded-lg p-1">
+        <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-lg p-1">
            <LogTable />
         </div>
 

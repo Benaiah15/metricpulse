@@ -25,7 +25,7 @@ export default function AlertsPage() {
         <section aria-label="Configured Alerts" className="rounded-lg border border-neutral-800 bg-neutral-900 overflow-hidden">
           <table className="w-full text-left border-collapse text-sm">
             <thead>
-              <tr className="bg-neutral-950 text-neutral-400 border-b border-neutral-800">
+              <tr className="bg-neutral-100 dark:bg-neutral-950 text-neutral-600 dark:text-neutral-400 border-b border-neutral-200 dark:border-neutral-800">
                 <th className="p-4 font-medium">Policy Name</th>
                 <th className="p-4 font-medium">Metric</th>
                 <th className="p-4 font-medium">Condition</th>

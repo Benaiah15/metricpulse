@@ -116,7 +116,7 @@ export function LogTable() {
       <div className="overflow-x-auto border border-neutral-800 rounded">
         <table className="w-full text-left border-collapse text-sm">
           <thead>
-            <tr className="bg-neutral-950 text-neutral-400 border-b border-neutral-800">
+            <tr className="bg-neutral-100 dark:bg-neutral-950 text-neutral-600 dark:text-neutral-400 border-b border-neutral-200 dark:border-neutral-800">
               <th className="p-3 font-medium w-32">Timestamp</th>
               <th className="p-3 font-medium w-48">Service</th>
               <th className="p-3 font-medium w-24">Severity</th>

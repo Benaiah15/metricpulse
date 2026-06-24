@@ -53,7 +53,7 @@ function LoginFormContent() {
       </div>
 
       {/* Login Form */}
-      <div className="bg-neutral-900 border border-neutral-800 rounded-xl p-8 shadow-xl">
+      <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-xl p-8 shadow-xl">
         <form onSubmit={handleLogin} className="space-y-6">
           {error && (
             <div className="p-3 rounded-md bg-red-500/10 border border-red-500/20 flex items-start gap-3 text-red-400">
