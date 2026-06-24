@@ -10,10 +10,11 @@ export function MetricsDashboard() {
   // We now destructure the data and the trigger function from the updated hook
   const { data, currentCpu, currentMem, latency, isLoading } = useMetricStream();
   // Reconstruct latestData for the AlertBanner using our live database numbers
+// Reconstruct latestData for the AlertBanner using our live database numbers
 const latestData = {
   time: new Date().toLocaleTimeString(),
   cpu: currentCpu,
-  memory: currentMem
+  memory: currentMem, // <--- Add a comma right here!
   latency: latency
 };
 
