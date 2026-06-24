@@ -4,6 +4,7 @@ export interface MetricPoint {
   time: string;
   cpu: number;
   memory: number;
+  latency: number; // Add this line so it perfectly matches the chart expectations
 }
 
 export function useMetricStream() {
