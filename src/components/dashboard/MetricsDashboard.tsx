@@ -24,17 +24,6 @@ const latestData = {
       {/* Dynamic Alert Banner */}
       <AlertBanner latestData={latestData} />
 
-      {/* Developer Debug Panel - In production, this would be hidden behind an RBAC permission flag */}
-      <section aria-label="Developer Controls" className="flex justify-end mb-2">
-        <button 
-          onClick={triggerSpike}
-          className="flex items-center gap-2 px-3 py-1.5 text-xs font-medium text-neutral-400 bg-neutral-900 border border-neutral-800 rounded hover:bg-neutral-800 hover:text-neutral-200 transition-colors focus:outline-none focus:ring-2 focus:ring-neutral-700 focus:ring-offset-2 focus:ring-offset-neutral-950"
-        >
-          <Bug size={14} aria-hidden="true" />
-          Simulate Load Spike
-        </button>
-      </section>
-
       {/* Top Metric Cards Grid */}
       <section aria-label="Key Metrics" className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <div className="p-5 rounded-lg border border-neutral-800 bg-neutral-900 flex flex-col gap-2">
