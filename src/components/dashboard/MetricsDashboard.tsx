@@ -14,6 +14,7 @@ const latestData = {
   time: new Date().toLocaleTimeString(),
   cpu: currentCpu,
   memory: currentMem
+  latency: latency
 };
 
   return (
