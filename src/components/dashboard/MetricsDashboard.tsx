@@ -8,9 +8,7 @@ import { AlertBanner } from './AlertBanner';
 
 export function MetricsDashboard() {
   // We now destructure the data and the trigger function from the updated hook
-  const { data, triggerSpike } = useMetricStream(2000, 30);
-  
-  const latestData = data.length > 0 ? data[data.length - 1] : { time: '', cpu: 0, memory: 0, latency: 0 };
+  const { data, currentCpu, currentMem, latency, isLoading } = useMetricStream();
 
   return (
     <div className="space-y-6">
